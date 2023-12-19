@@ -1,0 +1,288 @@
+.machine {
+    padding-top: 30px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    background-color: #EFEFEF;
+    /* color: orange;
+    color: black; */
+}
+
+
+.product-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0;
+    min-height: 100vh;
+    cursor: pointer;
+    background-color: #EFEFEF;
+}
+
+.container-products {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 50px 30px;
+    cursor: pointer;
+}
+
+.container-products .cards {
+    /* position: relative; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 380px;
+    height: 530px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.container-products .cards .imgBx {
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 320px;
+    height: 190px;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.container-products .cards .content {
+    /* position: absolute;
+    top: 230px; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 10px;
+    height: 270px;
+    width: 340px;
+    margin: 0;
+}
+
+
+
+.container-products .cards h2 {
+    color: black;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-transform: none;
+    text-align: left;
+    display: inline-block;
+}
+
+.container-products .cards:hover {
+    transform: scale(1.05);
+}
+
+.container-products .cards .content ul {
+    list-style-type: none;
+    padding-left: 20px;
+    /* Adjust the left padding to control the indent */
+}
+
+.container-products .cards .content li {
+    text-align: left;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.container-products .cards .content li::before {
+    content: '\2022';
+    /* Unicode character for a bullet point */
+    display: inline-block;
+    width: 1em;
+    /* Adjust the width as needed to control the spacing */
+    margin-left: -1em;
+    /* Offset to align with the text */
+}
+
+.button1 {
+    margin-top: 40px;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: #00b0b0;
+    transition: all 0.3s ease;
+    padding: 8px 100px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background: #0099b0;
+}
+
+.button {
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: #00b0b0;
+    transition: all 0.3s ease;
+    padding: 8px 100px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #0099b0;
+}
+
+.mac_header {
+    background-color: #eeeeee;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.mac_header h2 {
+    text-transform: None;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+
+@media (max-width: 650px) {
+    .mac_header {
+        padding-bottom: 0px;
+    }
+
+    .container-products .cards:hover {
+        transform: scale(1.05);
+    }
+
+
+    .container-products {
+        gap: 50px 1px;
+        padding: 20px 5px;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 424px) {
+    .container-products .cards {
+        transform: scale(0.85);
+    }
+
+    .container-products .cards:hover {
+        transform: scale(0.9);
+    }
+
+    .container-products {
+        gap: 0px 0px;
+        padding: 20px 5px;
+        cursor: pointer;
+    }
+
+    .container-products {
+        /* gap: 100px 80px; */
+        padding: 15px 0px;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 388px) {
+    .container-products .cards {
+        transform: scale(0.8);
+    }
+
+    .container-products .cards:hover {
+        transform: scale(0.85);
+    }
+
+    .container-products {
+        max-width: 350px;
+        gap: 0px 0px;
+        padding: 0;
+        cursor: pointer;
+    }
+
+
+}
+
+@media (min-width: 1730px) {
+
+    .container-products .cards:nth-of-type(12),
+    .container-products .cards:nth-of-type(11),
+    .container-products .cards:nth-of-type(10),
+    .container-products .cards:nth-of-type(9) {
+        height: 400px;
+    }
+
+
+    .container-products .cards:nth-of-type(12) .content,
+    .container-products .cards:nth-of-type(11) .content,
+    .container-products .cards:nth-of-type(10) .content,
+    .container-products .cards:nth-of-type(9) .content {
+        height: 130px;
+    }
+
+    .container-products .cards:nth-of-type(8),
+    .container-products .cards:nth-of-type(7),
+    .container-products .cards:nth-of-type(6),
+    .container-products .cards:nth-of-type(5) {
+        height: 430px;
+    }
+
+    .container-products .cards:nth-of-type(8) .content,
+    .container-products .cards:nth-of-type(7) .content,
+    .container-products .cards:nth-of-type(6) .content,
+    .container-products .cards:nth-of-type(5) .content {
+        height: 160px;
+    }
+}
+
+@media (max-width: 1730px) and (min-width: 1300px) {
+
+    .container-products .cards:nth-of-type(6),
+    .container-products .cards:nth-of-type(5),
+    .container-products .cards:nth-of-type(4) {
+        height: 450px;
+    }
+
+    .container-products .cards:nth-of-type(6) .content,
+    .container-products .cards:nth-of-type(5) .content,
+    .container-products .cards:nth-of-type(4) .content {
+        height: 190px;
+    }
+
+    .container-products .cards:nth-of-type(12),
+    .container-products .cards:nth-of-type(11),
+    .container-products .cards:nth-of-type(10),
+    .container-products .cards:nth-of-type(9),
+    .container-products .cards:nth-of-type(8),
+    .container-products .cards:nth-of-type(7) {
+        height: 370px;
+    }
+
+    .container-products .cards:nth-of-type(12) .content,
+    .container-products .cards:nth-of-type(11) .content,
+    .container-products .cards:nth-of-type(10) .content,
+    .container-products .cards:nth-of-type(9) .content,
+    .container-products .cards:nth-of-type(8) .content,
+    .container-products .cards:nth-of-type(7) .content {
+        height: 110px;
+    }
+
+}

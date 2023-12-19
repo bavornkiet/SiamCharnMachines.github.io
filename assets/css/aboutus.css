@@ -1,0 +1,253 @@
+main {
+    /* padding: 0; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* .page-title-cover {} */
+
+.con {
+    padding-top: 167.667px;
+    padding-bottom: 41.9166px;
+    background-color: #010432;
+    max-width: 1800px;
+    box-sizing: border-box;
+    width: 100%;
+    /* padding-right: 8%;
+    padding-left: 8%; */
+    /* margin-right: 8%;
+    margin-left: 8%;  */
+}
+
+
+
+
+.page-title {
+    max-width: 1600px;
+    position: relative;
+    width: 70%;
+    padding-left: 40px;
+    margin-bottom: 2rem;
+    margin-left: 8%;
+    text-transform: uppercase;
+}
+
+.page-title:before {
+    width: 8px;
+    height: 100%;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #acd0c2;
+    background: linear-gradient(180deg, #197373 40%, #0e3f70 100%);
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.page-title .subtitle {
+    /* font-family: "Gotham", "DB Helvethaica"; */
+    margin-bottom: 0;
+    color: #FFF;
+    width: 100%;
+}
+
+.page-title .title {
+    /* font-family: "Gotham", "DB Helvethaica"; */
+    margin-bottom: 0;
+    width: 100%;
+    /* color: #90d2c1; */
+}
+
+h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+
+.page-content {
+    margin: 60px auto;
+    max-width: 1600px;
+    font-size: 16px;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 5px solid green; */
+}
+
+.page-content .con-img {
+    width: 50%;
+}
+
+.page-content .con-p {
+    /* padding-left: 3%; */
+    width: 40%;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    .page-content {
+        padding: 40px 10px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        /* border: 5px solid green; */
+    }
+
+    .page-content .con-img {
+        width: 90%;
+        margin-bottom: 2%;
+    }
+
+    .page-content .con-p {
+        /* padding-left: 3%; */
+        width: 90%;
+        margin-bottom: 5%;
+        font-weight: 400;
+        line-height: 1.4;
+        color: #212529;
+        text-align: left;
+    }
+}
+
+
+
+.page-specialities {
+    font-size: 16px;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* flex-basis: 250px; */
+}
+
+.pg-special {
+    width: 25%;
+    font-size: 0.8em;
+    line-height: 1.5;
+    margin-top: 20px;
+    /* width: 30%; */
+    /* border: 5px solid orange; */
+    text-align: center;
+}
+
+.pg-special h4 {
+    text-transform: uppercase;
+}
+
+.pg-special .icons {
+    font-size: 2em;
+}
+
+@media screen and (max-width: 767px) {
+    .page-content .con-p {
+        font-size: 1.2em;
+    }
+
+    .page-specialities {
+        padding: 20px 40px;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pg-special {
+        margin-bottom: 40px;
+        width: 70%;
+    }
+
+    .pg-special p {
+        font-size: 1.2em;
+        line-height: 1.8;
+    }
+
+    .pg-special .icons {
+        font-size: 2.1875em;
+    }
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card {
+    text-align: center;
+    padding: 20px 25px;
+    padding-bottom: 15px;
+    /* background: rgb(1, 117, 149); */
+    border-radius: 18px;
+    width: 300px;
+    /* height: 50%; */
+    margin: 20px;
+    transition: all 0.3s ease;
+}
+
+
+.card .card-images {
+    height: 150px;
+    border-bottom: none;
+    border-radius: 18px 18px 25px 25px;
+    margin-bottom: 15px;
+    background-size: cover;
+    padding: 10px;
+}
+
+@media (max-width: 974px) {
+    .card {
+        margin: 15px;
+    }
+
+}
+
+@media (max-width:400px) {
+    .card {
+        padding: 20px 5px;
+        margin: 15px 5px;
+    }
+
+}
+
+.card1 {
+    background-image: url("../../img/MANHART-MH4-GTR-II-G82-Website-1.jpg");
+}
+
+.card2 {
+    background-image: url("../../img/deliveries.jpg");
+}
+
+.card3 {
+    background-image: url("../../img/MANHART-MH4-GTR-II-G82-Website-1.jpg");
+}
+
+.card h3 {
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
