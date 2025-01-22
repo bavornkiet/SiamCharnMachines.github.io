@@ -1,49 +1,33 @@
-Machine Building Company Website
+# Machine Building Company Website
 
-Project Overview
+## Overview
 
-This project is a fully responsive and interactive website developed for a machine building company. The website serves as a digital presence for the company, showcasing its offerings, services, and contact information. It is designed to provide an intuitive user experience with easy navigation between its core sections.
+This project is a multi-page website for a machine building company. The website is designed to showcase the company's services, products for various industries, and provide contact information along with support for spare parts and maintenance. The main purpose of this website is to present a professional online presence that communicates the company’s capabilities and offerings.
 
-Features:
+## Main Pages
 
-Home Page:
+The website is divided into five primary pages:
+- **Home Page**: The landing page that welcomes visitors, provides a brief overview of the company, and guides users to other sections of the site.
+- **About Us**: A page containing detailed information about the company’s history, mission, team, and values.
+- **Products for Various Industries**: This page displays the range of machines and products, sorted by different industries. It might include images, specifications, and other relevant details.
+- **Contact Us**: A page where visitors can find contact details, a contact form, and possibly a map to the company location.
+- **Spare Parts and Maintenance**: A dedicated section offering information on available spare parts and maintenance services to support customers post-purchase.
 
-A welcoming and visually engaging introduction to the company.
+## Technologies Used
 
-Highlight of key products and services.
+The project is primarily built using the following technologies:
+- **HTML** for page structure.
+- **CSS** for styling and layout.
+- **JavaScript** for interactivity and dynamic content.
+  
+Other libraries or frameworks can be integrated as needed, but this project focuses on vanilla HTML, CSS, and JavaScript for simplicity and ease of maintenance.
 
-Quick access to other sections of the website.
+## Key Features and Highlights
 
-About Us Page:
+- **Responsive Design**: The website adapts to various screen sizes and devices.
 
-Information about the company’s history, mission, and values.
+- **Interactive Elements** : Includes animations, hover effects, and dynamic content.
 
-Details about the team and the company’s expertise.
+- **Cross-Browser Compatibility**: Tested on major browsers for consistent performance.
 
-Products Page:
-
-Showcases a variety of products tailored for multiple industries.
-
-Includes descriptions, images, and specifications of the machines.
-
-Contact Us Page:
-
-Easy-to-use contact form for inquiries.
-
-Displays contact details such as phone number, email, and office address.
-
-Integration with Google Maps for location visualization.
-
-Spare Parts & Maintenance Page:
-
-Information about the spare parts and maintenance services offered.
-
-Option to request quotes or service appointments.
-
-Technologies Used
-
-HTML: Structure of the web pages.
-
-CSS: Styling for layout, colors, and responsiveness.
-
-JavaScript: Interactive elements, form validation, and animations.
+- **Clean and Modern UI**: Ensures a professional look and feel
